@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ajax Tutorial with PHP, jQuery</title>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Ajax Tutorial with PHP, jQuery</h1>
+			<!-- A div that recieves message from PHP(server-side) -->
+			<div id="message"></div>
+
+			<!-- Post Area -->
+			<p>Posts:</p>
+			<ul id="posts"></ul>
+
+			<!-- form -->
+			<form id="form" action="./ajax.php" method="post">
+				<textarea name="text" rows="8" placeholder="What's on your mind?"></textarea>
+				<input type="submit" name="submit" value="Post">
+			</form>
+
+		</div><!-- /.container -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="vendor/jquery-2.1.4.min.js"><\/script>')</script>
+		<script src="main.js"></script>
+	</body>
+</html>
