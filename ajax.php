@@ -3,15 +3,15 @@ try {
 
   /**
    * The value inside of $_POST[] should match
-   * the name of your textarea that you set in index.php.
+   * the name of your textarea that you set in index.html.
    */
   if ( !isset($_POST["text"]) ) {
     throw new Exception("Textarea named 'text' doesn't exist.");
   }
   $text = $_POST["text"];
-   if (!$text) {
-     throw new Exception("Textarea is empty.");
-   }
+  if (!$text) {
+    throw new Exception("Textarea is empty.");
+  }
 
   // Usually you want to store this value to DB.
   // But this tutorial is not designed for it.
