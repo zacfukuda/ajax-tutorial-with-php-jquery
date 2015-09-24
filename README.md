@@ -2,7 +2,7 @@
 
 This tutorial shows you how to make a simple Ajax event with PHP and jQuery. Designed for beginners to Ajax and PHP.
 
-[Official Tutorial Page](http://mokuji.me/article/ajax-tutorial-with-php-jquery)
+[Official Tutorial Page](http://www.mokuji.me/article/ajax-tutorial-with-php-jquery)
 
 In this tutorial, you will send texts to the server and receive the message along with http status code. After recieving, you will display that message on the current page.
 For usability, you will also add a proper class to the message box according to the status code you receive from the server.
